@@ -2,11 +2,8 @@ Function GetNestprocess () return String
 {
 if AFC.CanExecuteAFeatureFromName(WYNCB_4135)
 {
-      if AFC.CanExecuteAFeatureFromName(WYNCB_4125)
+// Feature WYNCB_4125 is deprecated
           return "Current Claim Process"
-      Else
-          return "New Claim Process"
-      endIf
 }
 Else
       return "Old Claim Process"
