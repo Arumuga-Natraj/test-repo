@@ -1,0 +1,8 @@
+Function GetClaim () return Boolean
+{
+if AFC.CanExecuteAFeatureFromName(WYNCB_4100) and (enrollment <> Nil) and (enrollment.GroupBenefitPlan <> 
+      Nil) and (enrollment.GroupBenefitPlan.OfferedEntity <> Nil) and (enrollment.GroupBenefitPlan.OfferedEntity.ReinstatementParameters <> 
+      Nil) and member(enrollment, aAFC_MemberContract)
+      return true
+endIf
+}

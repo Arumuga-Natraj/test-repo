@@ -1,0 +1,14 @@
+Function GetNestprocess () return String
+{
+if AFC.CanExecuteAFeatureFromName(WYNCB_4135)
+{
+      if AFC.CanExecuteAFeatureFromName(WYNCB_4125)
+          return "Current Claim Process"
+      Else
+          return "New Claim Process"
+      endIf
+}
+Else
+      return "Old Claim Process"
+endIf
+}

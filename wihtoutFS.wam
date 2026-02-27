@@ -1,0 +1,9 @@
+Function GetEmpty () return Boolean
+{
+if(Result.IsEnable)
+  return true
+Else
+  return false
+endIf
+}
+  
