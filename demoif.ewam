@@ -1,6 +1,0 @@
-Function GetAvailable () return Boolean
-{
-if not AFC.CanExecuteAFeatureFromName(WYNCB_4100) 
-  return false
-endIf
-}
