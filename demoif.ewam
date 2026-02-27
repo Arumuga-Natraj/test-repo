@@ -1,5 +1,6 @@
-Function GetClaimprocess () return String
+Function GetAvailable () return Boolean
 {
-// Feature WYNCB_4121 is deprecated
-      return "New Claim Process"
+if not AFC.CanExecuteAFeatureFromName(WYNCB_4100) 
+  return false
+endIf
 }
