@@ -1,8 +1,5 @@
 Function GetClaimprocess () return String
 {
-if AFC.CanExecuteAFeatureFromName(WYNCB_4121) 
+// Feature WYNCB_4121 is deprecated
       return "New Claim Process"
-Else
-      return "Old Claim Process"
-endIf
 }
