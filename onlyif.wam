@@ -1,6 +1,5 @@
 Function GetAvailable () return Boolean
 {
-if not AFC.CanExecuteAFeatureFromName(WYNCB_4100) 
+// Feature WYNCB_4100 is deprecated
   return false
-endIf
 }
